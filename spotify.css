@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+    margin: none;
+   
+}
+.spotify-logo{
+    width: 80px;
+    border-radius: 50%;
+    display: inline;
+}
+h1{
+   
+    display: block;
+    float:right;
+    text-align: center;
+}
+.flexbox{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+.items{
+     display: grid;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    border: 3px solid white;
+    border-radius: 5px;
+    text-align: center;
+    height: 350px;
+    padding: 20px;
+    width: 350px;
+    margin: 10px;
+    background-color: black;
+    color: aqua; 
+}
+.bottom{
+    
+    position: sticky;
+    height: 130px ;
+    color: white;
+    background-color: black;
+    display: flex;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#myProgressBar{
+    width: 80%;
+}
+.icons{
+    margin-top: 20px;
+}
+.icons i{
+    cursor: pointer;
+}
+.container{
+    
+    margin: 0px;
+    margin-left: 0%;
+    margin-right:30px;
+    background-color:black;
+}
+.images{
+    height: 250px;
+    width: 280px;
+    display: flex;
+    border-radius: 5px;
+}
+#play{
+    align-self: center;
+    align-content: center;
+}
+i{
+    cursor: pointer;
+}
+
