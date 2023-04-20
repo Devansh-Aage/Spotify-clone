@@ -7,15 +7,15 @@
     <title>Spotify</title>
     <link rel="stylesheet" href="spotify.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
+    <link rel="icon" href="data:;base64,=">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="cont">
         <header>
             <nav class="navbar navbar-dark bg-dark fixed-top">
                 <div class="container-fluid">
                     <img class="spotify-logo" src="spotify.jpg" alt="spotify logo">
-                    <a class="navbar-brand" href="#"><b>Good Morning</b></a>
+                    <a class="navbar-brand" href="#"><b id="greet">Good Morning</b></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -57,25 +57,26 @@
         </header>
         <br><br><br>
         <div class="flexbox">
-        <div class="items"><img class="images" src="tuaake.jpg" alt="">
-          <i class="fa-sharp fa-3x fa-solid fa-circle-play"></i></div>
-        <div class="items"><img class="images" src="tate.jpg" alt=""><i  class="fa-sharp fa-3x fa-solid fa-circle-play"></i></div>
-        <div class="items"><img src="godzilla.jpg" class="images" alt=""><i  class="fa-sharp fa-3x fa-solid fa-circle-play"></i></div>
-        <div class="items"><img src="starboy.jpg" class="images" alt=""><i  class="fa-sharp fa-3x fa-solid fa-circle-play"></i></div>
-        <div class="items"><img src="perfect.jpg" class="images" alt=""><i  class="fa-sharp fa-3x fa-solid fa-circle-play"></i></div>
-        <div class="items"><img src="lucid-dreams.jpg" class="images" alt=""><i  class="fa-sharp fa-3x fa-solid fa-circle-play"></i></div>
+        <div class="items" ><img class="images" src="tuaake.jpg" alt=""><i id="0" class="songItemPlay fa-sharp fa-3x fa-solid fa-circle-play"></i></div>
+        <div class="items"  id="abc"><img class="images" src="tate.jpg" alt=""><i id="1" class="songItemPlay fa-sharp fa-3x fa-solid fa-circle-play"></i></div>
+        <div class="items"><img src="godzilla.jpg" class="images" alt=""><i id="2" class="songItemPlay fa-sharp fa-3x fa-solid fa-circle-play"></i></div>
+        <div class="items"><img src="starboy.jpg" class="images" alt=""><i id="3" class="songItemPlay fa-sharp fa-3x fa-solid fa-circle-play"></i></div>
+        <div class="items"><img src="perfect.jpg" class="images" alt=""><i id="4" class="songItemPlay fa-sharp fa-3x fa-solid fa-circle-play"></i></div>
+        <div class="items"><img src="lucid-dreams.jpg" class="images" alt=""><i id="5" class="songItemPlay fa-sharp fa-3x fa-solid fa-circle-play"></i></div>
         </div>
         <div class="bottom">
             <input type="range" name = "range" id="myProgressBar" min="0" max="100">
             <div class="icons">
-              <i class="fa-solid fa-3x fa-backward-step"></i>
+              <i id="previous" class="fa-solid fa-3x fa-backward-step"></i>
               <i id="masterPlay" class="fa-sharp fa-3x fa-solid fa-circle-play"></i>
-              <i class="fa-solid fa-3x fa-forward-step"></i>
+              <i id="next" class="fa-solid fa-3x fa-forward-step"></i>
             </div>
+            <span id="masterSongName"></span>
         </div>
     </div>
     <script src="https://kit.fontawesome.com/615749eba7.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="spotify.js"></script>    
+    
   </body>
 </html>
