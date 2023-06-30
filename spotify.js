@@ -15,6 +15,8 @@ let songs  =[
   {songName : "Starboy-WEEKEND",filePath:"songs/starboy.mp3", coverpath: "tate.jpg" },
   {songName : "Perfect-ED SHEERAN",filePath:"songs/perfect.mp3", coverpath: "tate.jpg" },
   {songName : "Lucid-Dreams-JUICE WRLD",filePath:"songs/lucid.mp3", coverpath: "tate.jpg" },
+  {songName : "Apna Bana Le",filePath:"songs/lucid.mp3", coverpath: "tate.jpg" },
+  {songName : "Die For You REMIX",filePath:"songs/lucid.mp3", coverpath: "tate.jpg" },
 ] 
 
 let date= new Date();
@@ -77,7 +79,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((Element) =>
 
 
 document.getElementById('next').addEventListener('click',() =>{
-  if(songIndex>=6){
+  if(songIndex>=7){
     songIndex=0;
   }
   else{
