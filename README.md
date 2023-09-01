@@ -37,4 +37,5 @@ If you have any feedback, please reach out to us at devanshaage@gmail.com
 ## Screenshots
 
 ![App Screenshot](Preview.png)
+![App Screenshot](Preview2.png)
 
