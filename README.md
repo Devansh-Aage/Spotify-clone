@@ -10,7 +10,7 @@
 
 
 ## Link For Deploying Site : 
-- (https://devansh-aage.github.io/Spotify-clone/spotify.html)
+- https://devansh-aage.github.io/Spotify-clone/spotify.html
 
 ## Feedback
 
