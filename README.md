@@ -35,7 +35,7 @@ If you have any feedback, please reach out to us at devanshaage@gmail.com
 
 🌐 Cross-Platform Compatibility: Access SoundClone across various platforms and browsers, ensuring you're always in tune with your music.
 
-🆓 Open Source: SoundClone is open source, allowing for community contributions and enhancements.
+🆓 Open Source: SoundClone is open source, allowing for community contributions and enhancements
 
 ## Screenshots
 
